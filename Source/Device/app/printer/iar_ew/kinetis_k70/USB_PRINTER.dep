@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1974815564</fileChecksum>
+  <configuration>
+    <name>Flash Debug K70</name>
+    <outputs>
+      <file>$PROJ_DIR$\readme.txt</file>
+    </outputs>
+  </configuration>
+  <configuration>
+    <name>RAM Debug K70</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

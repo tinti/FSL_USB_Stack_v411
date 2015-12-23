@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\USBH_Mouse.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>USBH_Mouse</project>
+        <configuration>Flash Debug K40</configuration>
+      </member>      
+      <member>
+        <project>USBH_Mouse</project>
+        <configuration>RAM Debug K40</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

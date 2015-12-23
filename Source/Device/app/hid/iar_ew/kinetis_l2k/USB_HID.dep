@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3887995237</fileChecksum>
+  <configuration>
+    <name>FLASH Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\common\RealTimerCounter.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\MKL25Z4.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\hidef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_class.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\common\main_kinetis.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dciapi.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_hid.c</file>
+      <file>$PROJ_DIR$\low_level_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_devapi.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\FLASH Debug\Exe\USB_HID.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.c</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\USB_HID.pbd</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_driver.pbi</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_descriptor.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\mouse_button.o</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\iar_ew\MKL25Z128xxx4.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_hid.pbi</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\mouse_button.pbi</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\wdt_kinetis.o</file>
+      <file>$PROJ_DIR$\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\wdt_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\USB_Config.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\cstartup_M.o</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_framework.o</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_driver.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\RealTimerCounter_kinetis.pbi</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\low_level_init.o</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_dci_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_bdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_hid.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\user_config.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_dci_kinetis.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_hid.o</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\RealTimerCounter_kinetis.o</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_class.o</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\main_kinetis.o</file>
+      <file>$PROJ_DIR$\..\..\mouse_button.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.h</file>
+      <file>$PROJ_DIR$\cstartup_M.s</file>
+      <file>$PROJ_DIR$\FLASH Debug\List\USB_HID.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\main_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\mouse_button.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\FLASH Debug\Obj\low_level_init.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 38 46 5 4 66 9 53 32 23 39 3 28 36 2 29 56 13 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 38 46 5 4 66 9 53 32 23 39 3 28 36 2 29 56 13 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\main_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 46 5 4 66 9 53 32 23 39 36 2 29 56 0 37 3 28 10 20 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 46 5 4 66 9 53 32 23 39 36 2 29 56 0 37 3 28 10 20 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71 5 4 66 9 53 32 23 39 58 56 36 2 29 38 46 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 5 4 66 9 53 32 23 39 58 56 36 2 29 38 46 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71 5 4 66 9 53 32 23 39 58 13 38 46 20 3 28 36 2 29 56 10 51 37 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 5 4 66 9 53 32 23 39 58 13 38 46 20 3 28 36 2 29 56 10 51 37 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 46 5 4 66 9 53 32 23 39 36 2 29 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 46 5 4 66 9 53 32 23 39 36 2 29 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 2 29 5 4 66 9 53 32 23 38 46 39 68 20 3 28 56 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 2 29 5 4 66 9 53 32 23 38 46 39 68 20 3 28 56 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\class\usb_hid.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 38 46 5 4 66 9 53 32 23 39 62 68 20 3 28 36 2 29 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 38 46 5 4 66 9 53 32 23 39 62 68 20 3 28 36 2 29 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 2 29 5 4 66 9 53 32 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 2 29 5 4 66 9 53 32 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 46 5 4 66 9 53 32 23 39 68 20 3 28 36 2 29 56 1 62 71 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 46 5 4 66 9 53 32 23 39 68 20 3 28 36 2 29 56 1 62 71 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 22 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FLASH Debug\Exe\USB_HID.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 31 61 43 48 64 30 63 57 67 45 44 60 35 74 21 49 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\source\common\usb_class.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 38 46 5 4 66 9 53 32 23 39 20 3 28 36 2 29 56 1 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 38 46 5 4 66 9 53 32 23 39 20 3 28 36 2 29 56 1 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\mouse_button.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 28 5 36 2 29 4 66 9 53 32 23 38 46 39 52 62 68 20 56 73 40 55 59 71 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 28 5 36 2 29 4 66 9 53 32 23 38 46 39 52 62 68 20 56 73 40 55 59 71 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

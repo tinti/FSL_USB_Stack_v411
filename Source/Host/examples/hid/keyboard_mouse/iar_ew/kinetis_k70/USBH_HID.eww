@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\USBH_HID.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>USBH_HID</project>
+        <configuration>Flash Debug K70</configuration>
+      </member>      
+      <member>
+        <project>USBH_HID</project>
+        <configuration>RAM Debug K70</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

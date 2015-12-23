@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\USB_MSD.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>USB_MSD</project>
+        <configuration>Flash Debug K53</configuration>
+      </member>      
+      <member>
+        <project>USB_MSD</project>
+        <configuration>RAM Debug K53</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\USB_VIRTUAL_CAMERA_SD.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>USB_VIRTUAL_CAMERA_SD</project>
+        <configuration>Flash Debug K21</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

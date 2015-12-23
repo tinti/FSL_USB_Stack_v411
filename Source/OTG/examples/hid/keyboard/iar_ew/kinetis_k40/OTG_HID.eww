@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\OTG_HID.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>      
+      <member>
+        <project>OTG_HID</project>
+        <configuration>Flash Debug K40</configuration>
+      </member>      
+      <member>
+        <project>OTG_HID</project>
+        <configuration>RAM Debug K40</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

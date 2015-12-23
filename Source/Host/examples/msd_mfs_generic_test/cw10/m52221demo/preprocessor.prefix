@@ -1,0 +1,8 @@
+/* Relaxed pointer type rules */
+#pragma mpwc_relax on
+
+/* compiler identification */
+#define __CODEWARRIOR__ 1
+
+/* debug build */
+#define _DEBUG 1

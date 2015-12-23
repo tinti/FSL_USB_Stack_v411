@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>529819671</fileChecksum>
+  <configuration>
+    <name>Flash Debug K70</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\IIC_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\sci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\PIT1_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\RealTimerCounter_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\wdt_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\keyboard_dev_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\keyboard_host.c</file>
+      <file>$PROJ_DIR$\..\..\keyboard_otg_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\poll.c</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\bsp\P3\P3.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\common\usb_class.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\class\usb_hid.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\kinetis\usb_dci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\usb_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\common\usb_framework.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hid\usb_host_hid.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub_sm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\common\usb_classes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_bw.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_cncl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_intr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_iso.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_shut.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_utl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\khci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\mem_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbevent.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbmsgq.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbsem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_close.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_ch9.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_cnl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_dev_list.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_shut.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_rcv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\kinetis\iar_ew\MK70FN1M0_Flash.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_snd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm_a_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm_b.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\otg_usb_fs\kinetis\usb_otg_fs_a_dev.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\otg_usb_fs\kinetis\usb_otg_fs_b_dev.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\otg_usb_fs\kinetis\usb_otg_fs_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\max3353\usb_otg_max3353_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\usb3300\usb3300.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\usb3300\usb3300.h</file>
+      <file>$PROJ_DIR$\cstartup_M.s</file>
+      <file>$PROJ_DIR$\low_level_init.c</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_dev_list.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_common.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_driver.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_snd.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_sm_main.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_sm_b.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_shut.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_fs_a_dev.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_rcv.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_main.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_fs_b_dev.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_fs_main.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\low_level_init.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\cstartup_M.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\IIC_kinetis.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_sm_a_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\PIT1_kinetis.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\P3.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\List\OTG_HID.map</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\poll.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_max3353_kinetis.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\keyboard_host.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\P3.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\keyboard_dev_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_dci_kinetis.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\PIT1_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\keyboard_otg_kinetis.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\sci_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_hid.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_class.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_driver.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_framework.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_host_hid.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\common\usb_framework.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\keyboard_dev_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_rcv.h</file>
+      <file>$PROJ_DIR$\..\..\keyboard_host.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_ch9.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_cnl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hid\usb_host_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\khci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\poll.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_close.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_dev_list.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_main.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_snd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_shut.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub_sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\hostapi.h</file>
+      <file>$PROJ_DIR$\..\..\hidkeyboard.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_cnfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usb_desc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\kinetis\usb_dci_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbprv_host.h</file>
+      <file>$PROJ_DIR$\..\..\usb_classes.h</file>
+      <file>$PROJ_DIR$\..\..\USB_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\usbevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\kinetis\usb_bdt_kinetis.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_main.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_private.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\MK70F12.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_cncl.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_intr.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_iso.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_bw.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_main.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_shut.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_utl.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_bw.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_cncl.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_intr.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_iso.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_main.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_shut.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\ehci_utl.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_utl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_host.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_main.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\poll.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\keyboard_host.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub_prv.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\wdt_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usb_bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\usb_devapi.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\RealTimerCounter_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\common\usb_class.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\hidef.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\P2.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_class.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\keyboard_otg_kinetis.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_hid.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_dci_kinetis.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_driver.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_host_hid.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_host_hub.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_host_hub_sm.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_classes.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\khci_kinetis.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\mem_util.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usbevent.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usbmsgq.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usbsem.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_ch9.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_close.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_cnl.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_common.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_dev_list.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\IIC_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\printf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\bsp\P2\P2.c</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\wdt_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_driver.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_main.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_rcv.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_usbprv_host.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb3300.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb3300.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\RealTimerCounter_kinetis.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_cache.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_bw.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_cncl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_shut.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_intr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_iso.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_host_hub.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_host_hub_sm.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_classes.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\khci_kinetis.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\mem_util.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usbevent.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usbmsgq.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usbsem.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_ch9.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_close.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_cnl.o</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_shut.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\host_snd.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_sm_b.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_fs_main.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\low_level_init.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_fs_b_dev.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_sm_a_kinetis.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Exe\OTG_HID.out</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_fs_a_dev.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_sm_main.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\OTG_HID.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\RealTimerCounter.h</file>
+      <file>$PROJ_DIR$\..\..\keyboard_dev.h</file>
+      <file>$PROJ_DIR$\..\..\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\kinetis\usb_dciapi.h</file>
+      <file>$PROJ_DIR$\derivative.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_otg_max3353_kinetis.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\IIC_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\driver\max3353\usb_otg_max3353_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbsem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbmsgq.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbevent.h</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\sci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\psptypes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Device\source\class\usb_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usb.h</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\usb_descriptor.pbi</file>
+      <file>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\sci_kinetis.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbprv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_common.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\IIC_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220 125 86 230 233 228 240 239 234 218 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220 125 86 230 233 228 77 240 239 234 218 222</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\sci_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235 236 238 230 233 228 240 239 234 241 237 247 246 227 149 220 125 86 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 236 238 230 233 228 77 240 239 234 241 237 247 246 227 149 220 125 86 218</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\PIT1_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235 236 238 230 233 228 240 239 234 241 237 247 246 227 243 220 125 86 218 251 249 248 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 220 125 86 218 251 249 248 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\kinetis\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250 230 233 228 240 239 234 236 238 241 237 247 246 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 250 230 233 228 77 240 239 234 236 238 241 237 247 246 227</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\RealTimerCounter_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246 230 233 228 240 239 234 241 227 218 220 125 86 249 248 236 238 237 247 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246 230 233 228 77 240 239 234 241 227 218 220 125 86 249 248 236 238 237 247 216</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\app\common\kinetis\wdt_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 144</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\keyboard_dev_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 154 229 242 232 152 150 217 219 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 154 229 242 232 152 150 217 219 216</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\keyboard_host.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 96 251 99 243 108 97 102 98 103 113 104 95 106 105 107 119 109 110 154 229 100 116 112 149 235 111 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 96 251 99 243 108 97 102 98 103 113 104 95 106 105 107 119 109 110 154 229 100 116 112 149 235 111 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\keyboard_otg_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 220 125 86 230 233 228 240 239 234 249 248 236 238 241 237 247 246 227 243 251 122 52 154 229 150 114 100 116 112 108 97 102 98 103 113 104 95 106 105 242 232 152 217 96 107 149 235 111 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218 220 125 86 230 233 228 77 240 239 234 249 248 236 238 241 237 247 246 227 243 251 122 52 154 229 150 114 100 116 112 108 97 102 98 103 113 104 95 106 105 242 232 152 217 96 107 149 235 111 222</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\examples\common\poll.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 236 238 230 233 228 240 239 234 241 237 247 246 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 236 238 230 233 228 77 240 239 234 241 237 247 246 227</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 152 150 154 229 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 152 150 154 229 232</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\bsp\P3\P3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\source\common\usb_class.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 150 154 229 93 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 150 154 229 93 232</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\source\class\usb_hid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 232 152 150 154 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 242 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 232 152 150 154 229</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\kinetis\usb_dci_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246 230 233 228 240 239 234 241 227 219 249 248 220 125 86 218 236 238 237 247 150 154 229 114 120 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246 230 233 228 77 240 239 234 241 227 219 249 248 220 125 86 218 236 238 237 247 150 154 229 114 120 144</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\source\driver\usb_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 154 229 219 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 154 229 219 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Device\source\common\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 152 150 154 229 93 232 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 152 150 154 229 93 232 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hid\usb_host_hid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 243 108 236 238 230 233 228 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 243 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 243 108 236 238 230 233 228 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115 243 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\hub\usb_host_hub_sm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 243 108 236 238 230 233 228 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 147 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115 243 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 147 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\classes\common\usb_classes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 117 99 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 117 99 115</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_bw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_cncl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_intr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_iso.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_shut.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\ehci\ehci_utl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 212 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\kinetis\khci_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 116 112 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 226 119 115 111 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 116 112 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 226 119 115 111 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\mem_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247 230 233 228 240 239 234 241 236 238 237 246 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 247 230 233 228 77 240 239 234 241 236 238 237 246 227</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbevent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 236 238 230 233 228 240 239 234 241 237 247 246 227 243</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 231 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbmsgq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226 236 238 230 233 228 240 239 234 241 237 247 246 227 100 116 112 108 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226 236 238 230 233 228 77 240 239 234 241 237 247 246 227 100 116 112 108 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\driver\usbsem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225 236 238 230 233 228 240 239 234 241 237 247 246 227 100 116 112 108 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225 236 238 230 233 228 77 240 239 234 241 237 247 246 227 100 116 112 108 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_close.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_ch9.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_cnl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_dev_list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 236 238 230 233 228 240 239 234 241 237 247 246 227 251 249 248 220 125 86 218 113 183 188 187 108 243 97 102 98 104 95 106 105 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 236 238 230 233 228 77 240 239 234 241 237 247 246 227 251 249 248 220 125 86 218 113 183 188 187 108 243 97 102 98 104 95 106 105 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243 108 236 238 230 233 228 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 100 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 100 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 149 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 149 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_shut.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_rcv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Host\source\host_common\host_snd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 236 238 230 233 228 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 236 238 230 233 228 77 240 239 234 241 237 247 246 227 243 97 251 249 248 220 125 86 218 102 98 103 113 104 95 106 105 183 188 187 112 189 190 192 193 143 116 191 141 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm_a_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 243 150 154 229 119 122 224 103 251 113 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 243 150 154 229 119 122 224 103 251 113 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm_b.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 243 150 154 229 119 122 224 103 251 113 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 243 150 154 229 119 122 224 103 251 113 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\otg_common\usb_otg_sm_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 243 119 122 224 103 251 113 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 243 119 122 224 103 251 113 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\driver\otg_usb_fs\kinetis\usb_otg_fs_a_dev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 220 125 86 230 233 228 240 239 234 249 248 236 238 241 237 247 246 227 243 119 122 103 251 113 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218 220 125 86 230 233 228 77 240 239 234 249 248 236 238 241 237 247 246 227 243 119 122 103 251 113 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\driver\otg_usb_fs\kinetis\usb_otg_fs_b_dev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 243 119 122 103 251 113 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\driver\otg_usb_fs\kinetis\usb_otg_fs_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 220 125 86 230 233 228 240 239 234 249 248 236 238 241 237 247 246 227 243 150 154 229 103 251 113 116 112 108 97 102 98 104 95 106 105 119 122 52 224 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218 220 125 86 230 233 228 77 240 239 234 249 248 236 238 241 237 247 246 227 243 150 154 229 103 251 113 116 112 108 97 102 98 104 95 106 105 119 122 52 224 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\driver\max3353\usb_otg_max3353_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 248 220 125 86 230 233 228 240 239 234 218 236 238 241 237 247 246 227 223 222 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 248 220 125 86 230 233 228 77 240 239 234 218 236 238 241 237 247 246 227 223 222 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\driver\usb3300\usb3300.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 236 238 230 233 228 240 239 234 241 237 247 246 227 218 220 125 86 154 229 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 236 238 230 233 228 77 240 239 234 241 237 247 246 227 218 220 125 86 154 229 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220 125 86 230 233 228 240 239 234 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220 125 86 230 233 228 77 240 239 234 218</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\source\bsp\P2\P2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 236 238 230 233 228 240 239 234 241 237 247 246 227 220 125 86 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 236 238 230 233 228 77 240 239 234 241 237 247 246 227 220 125 86 218</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Exe\OTG_HID.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 42 176 73 84 186 69 130 126 127 128 131 132 133 202 203 204 57 56 58 65 64 62 59 81 78 85 197 68 198 75 177 87 184 89 196 82 80 90 91 88 92 194 195 63 66 67 76 71 61 60 199 200 201 179 123 121 129 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MK70FN1M0_INT_FLASH\Obj\OTG_HID.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 70 79 72 151 134 135 136 137 138 139 140 171 172 173 174 175 180 181 182 205 206 94 146 157 166 209 167 145 153 245 185 156 165 159 244 160 161 158 162 163 164 213 210 208 221 211 207 214 168 169 170 148</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>RAM Debug K70</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

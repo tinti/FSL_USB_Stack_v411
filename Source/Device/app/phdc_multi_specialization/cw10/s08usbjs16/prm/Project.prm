@@ -1,0 +1,41 @@
+/* This is a linker parameter file for the mc9s08js16 */
+
+NAMES END /* CodeWarrior will pass all the needed files to the linker by command line. But here you may add your own files too. */
+
+SEGMENTS /* Here all RAM/ROM areas of the device are listed. Used in PLACEMENT below. */
+    RAM                      =  READ_WRITE   0x0080 TO 0x027F;
+    RAM1                     =  READ_WRITE   0x1870 TO 0x195F;
+    ROM                      =  READ_ONLY    0xC400 TO 0xFFAD;
+    ROM2                     =  READ_ONLY    0xC000 TO 0xC3FF;
+END
+
+PLACEMENT /* Here all predefined and user segments are placed into the SEGMENTS defined above. */
+    DEFAULT_RAM,                        /* non-zero page variables */
+                                        INTO RAM;
+    PHD_BUFFER,                         INTO RAM1;
+
+    _PRESTART,                          /* startup code */
+    STARTUP,                            /* startup data structures */
+    ROM_VAR,                            /* constant variables */
+    STRINGS,                            /* string literals */
+    VIRTUAL_TABLE_SEGMENT,              /* C++ virtual table segment */
+    DEFAULT_ROM,
+    COPY                                /* copy down information: how to initialize variables */
+                                        INTO  ROM; /* ,ROM2: To use "ROM2" as well, pass the option -OnB=b to the compiler */
+END
+
+STACKSIZE 0xED 
+
+VECTOR 0 _Startup /* Reset vector: this is the default entry point for an application. */
+
+CHECKSUM
+  CHECKSUM_ENTRY
+        METHOD_CRC_CCITT
+        INIT    0x8D9D
+        OF      READ_ONLY   0xC400 TO 0xFFAD
+        OF      READ_ONLY   0xFFC0 TO 0xFFFF
+        INTO    READ_ONLY   0xFFB8 SIZE 2
+        UNDEFINED 0xff
+  END
+END
+

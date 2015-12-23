@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\USB_MSD.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\kinetis_20\USB_MSD.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\kinetis_40\USB_MSD.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\kinetis_53\USB_MSD.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\kinetis_60\USB_MSD.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\kinetis_k70\USB_MSD.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\kinetis_k40_72MHz\USB_MSD.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>USB_MSD</project>
+        <configuration>Flash Debug K20D7</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
